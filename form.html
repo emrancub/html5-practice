@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="position.html">Position</a></li>
+            <li><a href="psudo.html">Psudo</a></li>
+            <li><a href="nav.html">Navigation</a></li>
+        </ul>
+    </nav>
+    <form action="">
+        <p>Name: <input placeholder="Enter your name" type="text" name="name" id=""></p>
+        <p>Phone: <input placeholder="Enter your phone number" type="tel" name="" id=""></p>
+        <p>E-mail: <input placeholder="Enter your email" pattern="@" type="password" name="" id=""></p>
+        <fieldset>
+            <legend>Your Gender</legend>
+            <p><label for="male"><input type="radio" name="gender" id="male">Male</label></p>
+            <p><label for="female"><input type="radio" name="gender" id="female">Female</label></p>
+            <p><label for="other"><input type="radio" name="gender" id="other">Other's</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Your Hobby</legend>
+            <p><label for="book"><input type="checkbox" name="hobby" id="book">Reading Books</label></p>
+            <p><label for="movie"><input type="checkbox" name="hobby" id="movie">Watching Movie</label></p>
+            <p><label for="intarnet"><input type="checkbox" name="hobby" id="intarnet">Browsing Internet</label></p>
+        </fieldset>
+        <p>Please write more about your self<label for=""><textarea name="" id="" cols="30" rows="10"></textarea></label></p>
+        <button type="submit">submit your all information</button>
+    </form>
+</body>
+</html>
